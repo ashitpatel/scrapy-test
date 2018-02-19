@@ -24,9 +24,9 @@ Downloads and links
 Changes to scrapy tutorial
 --------------------------
 
-Most of the files were created by downloading scrapy from
 
-A few files were created(C) or modified(M) as follows:
+Following files in scrapy tutorial directory and its subdirectories were 
+created(C) or modified(M) as follows:
 M  tutorial/spiders/bhrrc.py - spider to crawl BHRRC site for labeled
                               artiles.
 
