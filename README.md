@@ -27,6 +27,7 @@ Changes to scrapy tutorial
 
 Following files in scrapy tutorial directory and its subdirectories were 
 created(C) or modified(M) as follows:
+
 M  tutorial/spiders/bhrrc.py - spider to crawl BHRRC site for labeled
                               artiles.
 
@@ -38,7 +39,8 @@ M  tutorial/pipelines.py - prepare the data scraped by bhrrc.py for input
 C  tutorial/exporters.py - to export scrapped data to a text file 
                            that can be readily consumed by FastText.
 
-M  tutorial/settings.py
+M  tutorial/settings.py - specify the pipeline for BHRRC, configure the 
+                          file name 'bhrrc_fasttext.txt' for fasttext exporter.
 
 
 Usage
