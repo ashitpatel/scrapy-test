@@ -9,19 +9,21 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'bhrc'
+BOT_NAME = 'bhrrc'
 
 SPIDER_MODULES = ['tutorial.spiders']
 NEWSPIDER_MODULE = 'tutorial.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'bhrc (+https://www.business-humanrights.org)'
+#USER_AGENT = 'bhrrc (+https://www.business-humanrights.org)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-FILE_NAME = 'bhrc_fasttext.txt'
+
+# Output of the crawl - used by exporter
+FILE_NAME = 'bhrrc_fasttext.txt'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 4
@@ -67,7 +69,7 @@ FILE_NAME = 'bhrc_fasttext.txt'
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'tutorial.pipelines.BHRCPipeline': 300,
+    'tutorial.pipelines.BHRRCPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

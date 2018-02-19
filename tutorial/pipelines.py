@@ -40,7 +40,7 @@ def clense(text, space_replacer = ' ', to_lower = True, remove_punc = True):
     ''.join(i for i in text if ord(i)<128)
     return text
     
-class BHRCPipeline(object):
+class BHRRCPipeline(object):
     def __init__(self, file_name):
         # Storing output filename
         self.file_name = file_name
